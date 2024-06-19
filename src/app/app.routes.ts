@@ -6,11 +6,12 @@ import { NgModule } from '@angular/core';
 export const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent // Assign the HomeComponent as the component value
+    loadComponent: () => import('./home/home.component').then(m => m.HomeComponent)
   },
   {
     path: 'login',
-    component: LoginComponent } // Assign the LoginComponent as the component value
+    loadComponent: () => import('./components/pages/login/login.component').then(m => m.LoginComponent)
+  }
 ];
 
 @NgModule({
