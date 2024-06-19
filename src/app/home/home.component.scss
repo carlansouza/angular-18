@@ -1,0 +1,59 @@
+/* home.component.css */
+.home-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e73370;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.feature {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.feature h2 {
+  margin-top: 0;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #777;
+}
